@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>sahil</title>
+<body style="backgroun;">
+<form>
+<h1>login registration form </h1>
+first name
+<input type="text"name"first name"place holder="first name">
+<br>
+<br>
+last name
+<input type="text"name"last name"place holder"last name">
+<br>
+<br>
+email
+<input type="text"email"email id" place holder"email id">
+<br>
+<br>
+<input type="password"password"enter password"place holder"password">
+<br>
+<input type="text"name"last name"place holder"last name">
+<br>
+<br>
+<hr>
+<input type="submit"value="submit">
+<input type="reset"value="reset">
+</form>
+</body
