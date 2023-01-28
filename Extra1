@@ -1,0 +1,76 @@
+<html>
+<head>
+	<style>
+		h1{
+		text-align:center;
+		color:red;
+		}
+		.one{
+			background-color: gray;
+			position: relative;	
+		}
+		.two{
+			background-color: lightgray;
+			margin-left: 20vw;
+			margin-right: 20vw;
+			margin-bottom: 40px;
+			display: inline-block;
+		}
+		h2{
+			color: red;
+		}
+		.box2{
+			position: relative;
+			left: 470px;
+			bottom: 120px;
+		}
+		.top{
+			position: relative;
+			bottom: 18px;
+			height: 10px;	
+		}
+		.bot{
+			position: relative;
+			top: 18px;
+			height: 10px;	
+		}
+</style>
+</head>
+
+<body>
+	<div class="one">
+		<h1> <u>This is practice page</u> </h1>
+		<div class="two">
+			<div style="background-color: red; color:red; border: 1px solid black;" class="top">.</div>
+			<h2><u>Company Profile</u></h2>
+			<p>While some flexiblity exits in the order in which specific task can be performed,every application using the attributes
+			object performs the following basic steps.</p>
+			<ul>
+				<li>Acess the<i>automation server</i></li>
+				<li>contect to<u>Oracle Database Server</u></li>
+				<li>Excuter<del style="color: red;">commands</del>and acess the results
+				<li>Disconnect from the server and free the object used</li>
+			</ul>
+			<div class="box1">
+				<h2>Company person</h2>	
+				<ul>
+					<li>Microsoft</li>
+					<li>google</li>
+					<li>Sun Microsystem</li>
+				</ul>
+			</div>
+			<div class="box2">
+				<h2><u>Register Here</u></h2>
+				<form action="reg.php">
+					<label for="name">Name</label>
+					<input type="text" palaceholder="Name"  style="border:  2px ridge white;">
+					<br> <label for="gender">Gender <input type="radio" name="a">Male <input type="radio" name="a">Female</label>
+					<br><input type="button" value="Submit" style="background-color: lightgray; border: 4px groove lightgray;">
+				</form>
+			</div>
+			<div style="background-color: red; color:red; border: 1px solid black;" class="bot">.</div>
+			
+			
+		</div>
+	</div>
+</html>
