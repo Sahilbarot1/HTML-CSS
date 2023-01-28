@@ -1,0 +1,9 @@
+<html>
+<body>
+<h1>The iframe height and width attribute</h1>
+<iframe src="https://silveroakuni.ac.in/" width="400" 
+height=400">
+<p>Your browser does not support iframes.</p>
+</iframe>
+</body>
+</html>
