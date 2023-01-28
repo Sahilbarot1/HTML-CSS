@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal</title>
+    <style>
+        table {
+            border: 3px groove whitesmoke;
+
+        }
+        tr{
+            border-style: ridge ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <table border="2" align="center">
+            <caption style="font-weight: bold; margin: 5px;">Railway Time Table And Fare List</caption>
+            <tr>
+                <th rowspan="2">Name of train</th>
+                <th rowspan="2">place</th>
+                <th rowspan="2">destination</th>
+                <th  colspan="2">time</th>
+                <th rowspan="2">fare</th>
+            </tr>
+            <tr>
+                <td>arival</td>
+                <td>depart</td>
+            </tr>
+            <tr>
+                <td>rajdhani express</td>
+                <td>bombey</td>
+                <td>delhi</td>
+                <td>07:30</td>
+                <td>08:45</td>
+                <td>Rs. 500</td>
+            </tr>
+            <tr>
+                <td>rajdhani express</td>
+                <td>bombey</td>
+                <td>delhi</td>
+                <td>08:45</td>
+                <td>09:30</td>
+                <td>Rs. 500</td>
+            </tr>
+            <tr>
+                <td>rajdhani express</td>
+                <td>bombey</td>
+                <td>delhi</td>
+                <td>09:30</td>
+                <td>10:45</td>
+                <td>Rs. 500</td>
+            </tr>
+            <tr>
+                <td>rajdhani express</td>
+                <td>bombey</td>
+                <td>delhi</td>
+                <td>10:45</td>
+                <td>11:45</td>
+                <td>Rs. 500</td>
+            </tr>
+            <tr>
+                <td>rajdhani express</td>
+                <td>bombey</td>
+                <td>delhi</td>
+                <td>11:50</td>
+                <td>12:45</td>
+                <td>Rs. 500</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
