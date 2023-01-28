@@ -1,0 +1,301 @@
+<html> 
+<head>
+<title>example</title>
+</head>
+
+
+
+<body style="background-color:lightblue;"> 
+ <p><b>this text is bold</b></p>
+ <p>do not forget buy<mark>milk</mark>today</p>
+ <p>my favorite color is <del>blue</del>red</p>
+ <h1 style="font-family:commanders;">welcome to html</h1>
+ <h1 style="font-size:50px;">sahil brahmbhatt</h1>
+ 
+ <h3 style="color:red;">brahmbhatt</h3>
+ <hr>
+ <h2 style="text-align:center;"> brahmbhatt Sahil</h2>
+ <hr>
+ 
+ <br style="text-align:left;">
+ <a href="https://www.w3schools.com"  >w3school</a><br>
+ 
+ <section id="contact_info"> 
+ <h1>heading</h1>
+ <p>some data</p>
+ </section>
+ 
+ <aside id="top_5songs_list">some data</aside>
+ 
+ 
+ <section id="page">
+  <header>the page header contect</header>
+  <article> 
+     <header>the article header</header>
+      <footer>the article footer</footer>
+   </article>
+   </section>
+   <footer>the pave footer concent
+ 
+ <h1 style="color:red;">This is a heading</h1>
+ 
+ <h1 style="font-family:courier;"> POOJA VAGHELA</h1>
+ 
+ <center>
+   <p><b>Jay shri krishna</b></p>
+   <p><i>Jay Dwarkashidh</i></p>
+   </center>
+   
+ <h1>H<sub>2</sub>o</h1>
+ <h1>SO<sup>4</sup></h1>
+ 
+ 
+ <p><strong>this text is important!</strong></p>
+ 
+ 
+ <header>
+ <nav>
+   <ul>
+     <li>sahil</li>
+     <li>vivek</li>
+      <li>manish</li>
+      </ul>
+      </nav>
+ </header>
+ 
+ 
+ <p>my favorite color<del>blue</del>red</p>
+ 
+ 
+ <p>my favorite color<del>blue</del><ins>red</ins></p>
+ 
+ 
+ <ul> 
+   <li>sahil</li>
+   <li>manish</li><del>vaghela</del>
+   <li><mark>vivek</mark></li>
+   </ul>
+ 
+ <ol>
+   <li>hardik</li><dl>bhavsar</dl>
+   <li>manish</li><dd>kanjaria</dd>
+   
+   <li>hardik</li><dt>bhuva</dt>
+   
+   </ol>
+ 
+ 
+ <table border="10">
+ 
+   <tr>
+     <th>name</th>
+     <th>email</th>
+     <th>city</th>
+     </tr>
+ 
+ 
+   <tr>
+     <th>sahil</th>
+     <th>sahil.brahmbhatt710@gmail.com</th>
+     <th>ahemdabad</th>
+   </tr>
+   
+   
+   <tr>
+     <th>manish</th>
+     <th>manishkanjaria@gmail.com</th>
+     <th>surat</th>
+     </tr>
+   
+  <tr>
+   
+   <th>brahmbhatt</th>
+   <th>brahmbhatt1122@gmail.com</th>
+<th>rajkot</th>
+   
+   </tr>
+   
+   <tr>
+     <th>sanket</th>
+     <th>chauhansanket11@gmail.com</th>
+     <th>mumbai</th>
+   </tr>
+   
+ </table>
+
+
+<form>
+<label>gernal</label>
+<input type="radio"/>male
+<br>
+<input type="radio"/>female
+<br>
+<input type="radio"/>other
+<br>
+<label>phone numebr</label>
+<input type="number" size="10">
+<br>
+Email:
+<input type="email"/>
+<br>
+password
+<input type="password"/>
+<br>
+
+<input type="button" value="submit">
+<br>
+
+<label for="car">chose a car</label>
+<select id="cars" name="cars">
+<option>volvo</option>
+<option>bmw</option>
+
+<br>
+
+
+
+<input type="button" value="submit">
+
+</form>
+ 
+ 
+<a href="https://www.w3schools.com"target="_blank">visit w3 school</a>
+<p>if target="_blank",then link will be opne in a new browser window or tab</p>
+ 
+ 
+ <a href="#section2">Go to Section 2</a>
+ <br>
+ <a href="#section3">Go to Section 3</a>
+ <br>
+ <a href="#section4">Go to Section 4</a>
+ <br>
+ <a href="#section5">Go to Section 5</a>
+ <br>
+ <p>In my younger and more vulnerable years my father gave me some advice 
+ th I've been turning over in my mind ever since.</p>
+ <h2 id="section2">Section 2</h2>
+ <p>In my younger and more vulnerable years my father gave me some advice 
+ that I've been turning over in my mind ever since.</p>
+ <h2 id="section3">Section 3</h2>
+ <p>"Whenever you feel like criticizing any one," he told me, "just remember 
+ that all the people in this world haven't had the advantages that you've 
+ had."</p>
+ <h2 id="section4">Section 4</h2>
+ <p>"Whenever you feel like criticizing any one," he told me, "just remember 
+ that all the people in this world haven't had the advantages that you've 
+ had."</p>
+ <h2 id="section5">Section 5</h2>
+ <p>In my younger and more vulnerable years my father gave me some advice 
+ that I've been turning over in my mind ever since.</p>
+ 
+ 
+ 
+ 
+ <form action="#" method="POST">
+ <p>
+ <label>Title</label>
+ <label>
+ <input type="radio" name="title" value="mr">
+ Mr
+ </label>
+ <label>
+ <input type="radio" name="title" value="mrs">
+ Mrs
+ </label>
+ <label>
+ <input type="radio" name="title" 
+ value="miss">Miss
+ </label>
+ </p>
+ <p>
+ <label>First name</label>
+ <input type="text" placeholder="first_name">
+ </p>
+ <p>
+ <label>Last name</label>
+ <input type="text" placeholder="last_name">
+ </p>
+ <p>
+ <label>Email</label>
+ <input type="email" placeholder="email">
+ </p>
+ <p>
+ <label>Phone number</label>
+ <input type="tel" placeholder="phone">
+ </p>
+ <p>
+ <label>Password</label>
+ <input type="password" placeholder="password">
+ </p>
+ <p>
+ <label>Confirm your password</label>
+ <input type="password" placeholder="password confirm">
+ </p>
+ <p>
+ <label>Country</label>
+ <select>
+ <option value="" selected>SELECT</option>
+ <option value="India">India</option>
+ <option value="United States">United States</option>
+ </select>
+ </p>
+ <p>
+ <label> Select a file:</label>
+ <input type="file" id="myfile" name="myfile">
+ </p>
+ <p>
+ <label>
+ <input type="checkbox" value="terms">
+ I agree to the <a href="#">terms and conditions</a>
+ </label>
+ </p>
+ <p>
+ <button>
+ Sign up
+ </button>
+ </p>
+ </form>
+ 
+ 
+ <code>intro a cell</code>
+ 
+ 
+ <p>i have<samp> read and reread</samp> <cite>moby dick</cite>but i still can't make heads nor tails of it</p>
+ 
+ <p>I simpley <em>must</em>get your recipe for chili katen doason</p>
+ 
+ 
+ <p>Charuli said<q>We have chosen shame and will get war</q> but he wasn't talking about 1066.</p> 
+ 
+ 
+ <h2>The target Attribute</h2>
+ <a href="https://www.google.com/" target="_blank">Visit Google!</a> 
+ <p>If target="_blank", the link will open in a new browser window or tab.</p>
+ 
+ <p>My favorite color is <del>blue</del> red.</p>
+ 
+ <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+<p><strong>This text is important!</strong></p>
+ 
+ <p>This is <sub>subscripted</sub> text.</p>
+ 
+ 
+ <p>Do not forget to buy <mark>milk</mark> today.</p>
+ 
+<dl>
+<dt>Coffee</dt>
+<dd>- black hot drink</dd>
+<dt>Milk</dt>
+<dd>- white cold drink</dd>
+</dl>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </body>
+ </html>
