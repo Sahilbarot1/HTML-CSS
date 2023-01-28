@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>table tag</title>
+</head>
+<body>
+<table border="50"bgcolor="yellow" style="color:blue"; align="center"; height="50%" width="50%">
+    <tr>
+        <th>ROLL NO </th>
+        <th> NAME</th>
+        <th> DIVISION</th>
+        <th>image</th>.
+        </tr>
+<tr>
+<td>1</td>
+<td>sahil</td>
+<td>q</td>
+<td><img src="C:\Users\student\Pictures\Camera Roll" height="50px" width="50px"></td>
+</tr>
+<tr>
+  
+        <td>2</td>
+        <td>suraj</td>
+        <td>a</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>dhaval</td>
+            <td>c</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>veer</td>
+                <td>x</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>manish</td>
+                    <td>n</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>pankaj</td>
+                        <p><td>m</td></p>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>vishal</td>
+                            <td>l</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>mayur</td>
+                                <td>m</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>mehul</td>
+                                    <td>k</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>sanju</td>
+                                        <td>v</td>
+                                        </tr>
+
