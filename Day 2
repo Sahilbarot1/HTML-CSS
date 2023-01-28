@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Ganesh</title>
+		<style>
+			.one,.two,.three,.four,.five{
+				border-radious: 10px;
+				border-color: black;
+				border-style: groove;
+			}
+			.q{
+				background-color: lightpink;
+			}
+			td{
+				background-color: lightblue;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<ul>
+				<li>one</li>
+				<li>two</li>
+				<li>three</li>
+			</ul>
+			<ol>
+				<li>orange</li>
+				<li>apple</li>
+				<li>graphs</li>
+			</ol>
+			<dl>
+				<dt>orange</dt>
+					<dd>orange is my favorite fruite.</dd>
+				<dt>coffee</dt>
+					<dd>cold coffee</dd>
+			</dl>
+			<dl>
+				<dt>orange</dt>
+					<dd>orange is my favorite fruite.</dd>
+					<dd>my favorite fruites are: </dd>
+					<ul>
+						<li>apple</li>
+						<li>orange</li>
+						<li>graphs</li>
+						<br>
+				<dt>coffee</dt>
+					<dd>cold coffee.</dd>
+			</dl>
+
+			<p>goto to google site, please <a href="https://www.google.com" target="_blanck">click me</a></p>
+			<br>
+			<table border="2px" border-collapse="collapse" class="one">
+				<caption>MY TIME TABLE</caption>
+				<tr class="two">
+					<th class="q">DAY/TIME</th>
+					<th class="q">MONDAY</th>
+					<th class="q">TUESDAY</th>
+					<th class="q">WEDNESDAY</th>
+					<th class="q">THURSDAY</th>
+					<th class="q">FRIDAY</th>
+					<th class="q">SATURDAY</th>
+				</tr>
+				<tr class="two">
+					<td>7:30 to 8:30 am</td>
+					<td>DBMS</td>
+					<td>LDP</td>
+					<td>MCP</td>
+					<td>CS</td>
+					<td>wd</td>
+					
+				</tr>
+				<tr class="three">
+					<td>8:30 to 9:30 am</td>
+					<td>XML</td>
+					<td>LDP</td>
+					<td>DBMS</td>
+					<td>MCP</td>
+					
+					<td>BWD</td>
+				</tr>
+				<tr class="four">
+					<td>9:30 to 10:30 am</td>
+					<td>DBMS</td>
+					<td>XML</td>
+					<td>CS</td>
+					<td>LDP</td>
+					<td>DBMS</td>
+					<td>DHTML</td>
+				</tr>
+				<tr class="five">
+					<td>10:30 to 11:30 am</td>
+					<td>DBMS</td>
+					<td>CS</td>
+					<td>MCP</td>
+					<td>CS</td>
+					<td>DBMS</td>
+					<td>HTML</td>
+				</tr>
+			</table>
+			<table border="3px">
+				<caption>MY SECOND TABLE</caption>
+					<tr>
+						<th>one</th>
+						<th>two</th>
+						<th>three</th>
+					</tr>
+					<tr>
+						<td rowspan="2">rowspan</td>
+						<td colspan="2">my content</td>
+					</tr>
+					<tr>
+						<td>none</td>
+						<td>some content</td>
+					</tr>
+			</table>
+			<form action="mypage.php" method="POST">
+				<fieldset>
+					<legend>MY FORM</legend>
+					<label for="fn">FIRST NAME: </label>
+					<input type="text" placeholder="First Name"><br><br>
+					<label for="ln">LAST NAME: </label>
+					<input type="text" placeholder="Last Name"><br><br>
+					<label for="male">MALE</label>
+					<input type="radio" name="a">
+					<label for="female">FEMALE</label>
+					<input type="radio" name="a">
+					<label for="food">Need food card <input type="checkbox"></label>
+					<br>
+					<textarea rows="10" cols="60"> </textarea><br>
+					<input type="submit" value="submit">
+				</fieldset>
+			</form>
+			<table border="2">
+				<tr>
+					<td>
+						<ul>
+							<li>one</li>
+							<li>two</li>
+							<li>three</li>
+						</ul>
+						<ol>
+							<li>orange</li>
+							<li>apple</li>
+							<li>graphs</li>
+						</ol>
+					</td>
+	`				<td>
+						<table border="3">
+							<tr>
+								<th>One</td>
+								<td>Two</td>
+							</tr>
+							<tr>
+								<td>Three</td>
+								<th>Four</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table border="0">
+							<form>
+								<tr>
+									<td>
+										<label for="fn">First Name</label>
+										<input type="text" placeholder="First Name">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="ln">Last Name</label>
+										<input type="text" placeholder="Last Name">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="male">MALE</label>
+										<input type="radio" name="a">
+										<label for="female">FEMALE</label>
+										<input type="radio" name="a">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="terms"><input type="checkbox">I have accepted terms and condsitions.</label>
+										<br>
+										<input type="submit" value="submit">
+									</td>
+								</tr>
+					</td>
+				</tr>
+			</table>
+					
+		</div>
+
+	</body>
+
+</html>
